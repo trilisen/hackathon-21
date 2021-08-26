@@ -25,7 +25,7 @@ const Game = () => {
   return (
     <div>
       {isGameOver === true && <p>Game over</p>}
-      <Unity unityContext={unityContext} style={gameStyles} />;
+      <Unity unityContext={unityContext} style={gameStyles} />
     </div>
   );
 };

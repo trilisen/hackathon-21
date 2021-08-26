@@ -16,7 +16,7 @@ function App() {
       <Switch>
         <Route exact path="/">
           <main>
-            <Header color="white"></Header>
+            <Header color="black"></Header>
             <Game></Game>
           </main>
         </Route>

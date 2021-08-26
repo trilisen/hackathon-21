@@ -37,7 +37,7 @@ const Header = (props) => {
 
   return (
     <div style={divStyles}>
-      <Logo color={props.color}></Logo>
+      <Logo></Logo>
       <img
         src={infoBarOpen ? Xbtn : InfoBtn}
         alt=""

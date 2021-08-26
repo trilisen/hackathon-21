@@ -15,6 +15,7 @@ const titleStyles = {
   justifyContent: "flex-start",
   width: "50%",
   paddingTop: "8rem",
+  fontFamily: "Lota Grotesque SemiBold",
 };
 
 const arrowStyles = {
@@ -35,6 +36,7 @@ const containerStyles = {
 const textStyles = {
   margin: "3rem",
   fontSize: "1.5rem",
+  fontFamily: "Lota Grotesque Regular",
 };
 
 const About = () => {

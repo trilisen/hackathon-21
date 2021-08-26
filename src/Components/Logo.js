@@ -1,17 +1,22 @@
 import React from "react";
 
-const Logo = (props) => {
+const Logo = () => {
   const logoStyles = {
     margin: "40px",
     position: "absolute",
     top: 0,
     left: 0,
-    color: props.color,
     fontSize: "28px",
-    fontFamily: "Lota Grotesque SemiBold",
+    fontFamily: "CanvasScript-Heavy",
+    textDecoration: "none",
+    color: "black",
   };
 
-  return <div style={logoStyles}>Svåraste steget</div>;
+  return (
+    <a href="/" style={logoStyles}>
+      Svåraste steget
+    </a>
+  );
 };
 
 export default Logo;
