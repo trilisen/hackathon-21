@@ -1,5 +1,4 @@
 import * as React from "react";
-import Logo from "./Logo";
 import Footer from "./Footer";
 import Person from "./Person";
 import Header from "./Header";
