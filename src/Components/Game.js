@@ -11,6 +11,7 @@ const unityContext = new UnityContext({
 const gameStyles = {
   width: "100vw",
   height: "100vh",
+  maxWidth: "100%",
 };
 
 const Game = () => {

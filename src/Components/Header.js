@@ -1,34 +1,51 @@
-import * as React from "react";
-import Info from "../Images/info.svg";
+import React, { useState } from "react";
+import InfoBtn from "../Images/info.svg";
+import Xbtn from "../Images/x-button.svg";
+import Info from "./Info";
+import Logo from "./Logo";
 
 const divStyles = {
   position: "relative",
 };
 
-const logoStyles = {
-  margin: "1rem",
-  position: "absolute",
-  top: 0,
-  left: 0,
-  color: "white",
-  fontSize: "28px",
-  fontFamily: "Lota Grotesque SemiBold",
-};
-
 const infoBtnStyles = {
-  margin: "1rem",
+  zIndex: "1",
+  margin: "40px",
   position: "absolute",
   top: 0,
   right: 0,
-  height: "50px",
-  width: "50px",
+  height: "40px",
+  width: "40px",
+};
+
+const exitBtnStyles = {
+  zIndex: "1",
+  margin: "45px",
+  position: "absolute",
+  top: 0,
+  right: 0,
+  height: "30px",
+  width: "30px",
 };
 
 const Header = () => {
+  const [infoBarOpen, setInfoBarOpen] = useState(false);
+
+  const handleToggle = () => {
+    setInfoBarOpen((prev) => !prev);
+  };
+
   return (
     <div style={divStyles}>
-      <div style={logoStyles}>Svåraste steget</div>
-      <img src={Info} alt="" style={infoBtnStyles} />
+      <Logo></Logo>
+      <img
+        src={infoBarOpen ? Xbtn : InfoBtn}
+        alt=""
+        style={infoBarOpen ? exitBtnStyles : infoBtnStyles}
+        onClick={handleToggle}
+        className="infoBtn"
+      />
+      {infoBarOpen && <Info></Info>}
     </div>
   );
 };
