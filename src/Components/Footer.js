@@ -3,7 +3,6 @@ import Missionen from "../Images/logo-1.jpg";
 import Yrgo from "../Images/yrgo.jpg";
 
 const bottomStyles = {
-  width: "100%",
   background: "#019294",
   textAlign: "center",
   fontFamily: "Lota Grotesque Regular",

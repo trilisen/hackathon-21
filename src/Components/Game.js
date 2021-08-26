@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useEffect, useState } from "react";
 import Unity, { UnityContext } from "react-unity-webgl";
 
 const unityContext = new UnityContext({
@@ -15,7 +15,19 @@ const gameStyles = {
 };
 
 const Game = () => {
-  return <Unity unityContext={unityContext} style={gameStyles} />;
+  const [isGameOver, setIsGameOver] = useState(false);
+
+  useEffect(() => {
+    unityContext.on("GameOver", () => {
+      setIsGameOver(true);
+    });
+  }, []);
+  return (
+    <div>
+      {isGameOver === true && <p>Game over</p>}
+      <Unity unityContext={unityContext} style={gameStyles} />;
+    </div>
+  );
 };
 
 export default Game;
