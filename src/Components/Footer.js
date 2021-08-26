@@ -7,6 +7,7 @@ const bottomStyles = {
   background: "#019294",
   textAlign: "center",
   fontFamily: "Lota Grotesque Regular",
+  padding: "1rem",
 };
 
 const pStyles = {

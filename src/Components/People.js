@@ -1,13 +1,14 @@
 import * as React from "react";
 import Footer from "./Footer";
 import Person from "./Person";
-import Header from "./Header";
+import Logo from "./Logo";
 
 import JonImg from "../Images/jon.jpg";
 import AliciaImg from "../Images/alicia.jpg";
 import JacobImg from "../Images/jacob.jpg";
 import MalvaImg from "../Images/malva.jpg";
 import LindaImg from "../Images/linda.jpg";
+import Arrow from "../Images/arrow.svg";
 
 const personColors = ["#D0E2E3", "#F4E1D1", "#E5E3D9", "#EAC8AC", "#A9CBCB"];
 
@@ -25,16 +26,28 @@ const personContainerStyles = {
 };
 
 const titleStyles = {
+  display: "flex",
+  justifyContent: "flex-start",
+  width: "50%",
   paddingTop: "8rem",
+};
+
+const arrowStyles = {
+  display: "flex",
+  justifyContent: "center",
+  marginRight: "1rem",
 };
 
 const People = () => {
   return (
     <div>
-      <Header color="black"></Header>
+      <Logo></Logo>
       <main style={mainStyles}>
-        <div>
-          <h1 style={titleStyles}>Kreatörer</h1>
+        <div style={titleStyles}>
+          <a href="/" style={arrowStyles}>
+            <img src={Arrow} alt="Tillbaks" />
+          </a>
+          <h1>Kreatörer</h1>
         </div>
         <div style={personContainerStyles}>
           <Person

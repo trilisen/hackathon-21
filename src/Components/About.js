@@ -1,11 +1,11 @@
 import * as React from "react";
-import Logo from "./Logo";
 import Footer from "./Footer";
+import Logo from "./Logo";
 
 const About = () => {
   return (
     <div>
-      <Logo color="black"></Logo>
+      <Logo></Logo>
       <main>
         <div></div>
         <div></div>
