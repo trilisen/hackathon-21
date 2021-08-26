@@ -28,7 +28,7 @@ const exitBtnStyles = {
   width: "30px",
 };
 
-const Header = () => {
+const Header = (props) => {
   const [infoBarOpen, setInfoBarOpen] = useState(false);
 
   const handleToggle = () => {
@@ -37,7 +37,7 @@ const Header = () => {
 
   return (
     <div style={divStyles}>
-      <Logo></Logo>
+      <Logo color={props.color}></Logo>
       <img
         src={infoBarOpen ? Xbtn : InfoBtn}
         alt=""
