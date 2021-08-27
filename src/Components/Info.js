@@ -6,8 +6,8 @@ const infoDivStyles = {
   flexDirection: "column",
   justifyContent: "space-between",
   position: "absolute",
+  background: "rgba(255, 255, 255, 0.8)",
   right: 0,
-  background: "white",
   height: "100vh",
   width: "30vw",
 };

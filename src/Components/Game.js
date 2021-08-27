@@ -60,7 +60,9 @@ const Game = () => {
 
   useEffect(() => {
     unityContext.on("GameOver", () => {
-      setIsGameOver(true);
+      setTimeout(() => {
+        setIsGameOver(true);
+      }, 3000);
     });
   }, []);
 

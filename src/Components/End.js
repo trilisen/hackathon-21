@@ -7,7 +7,7 @@ const infoDivStyles = {
   zIndex: "1",
   position: "absolute",
   right: 0,
-  background: "white",
+  background: "rgba(255, 255, 255, 0.8)",
   height: "100vh",
   width: "70vw",
 };
@@ -53,7 +53,7 @@ const textStyles = {
 };
 
 const button1Styles = {
-  background: "rgba(1, 146, 148, 0.17)",
+  background: "rgba(212, 237, 237, 1)",
   boxShadow: "-6px 7px 4px rgba(0, 0, 0, 0.25)",
   border: "none",
   borderRadius: "10px",

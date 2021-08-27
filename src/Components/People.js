@@ -55,7 +55,7 @@ const People = () => {
             title="UX-Designer"
             email="mailto:alisto2002@skola.goteborg.se"
             img={AliciaImg}
-            text="1"
+            text="Jag har under arbetet gjort tidsestimat samt projektlett. Höll inledningsvis i övningar kopplade till idégenerering i Miro och sammanställde gruppens tankar kring budskap och story i en storyboard. Designat gränssnitt och layout för berättelsen, text och menyer. Användartestat rubriksättning samt förståelsen av berättelsens dialoger."
             background={personColors[0]}
           ></Person>
           <Person
@@ -63,7 +63,7 @@ const People = () => {
             title="Grafiker"
             email="mailto:malmal2002@skola.goteborg.se"
             img={MalvaImg}
-            text="2"
+            text="Jag har jobbat med utvecklingen av Storyn, sett till så att den har början mitt, och slut. Utifrån story tog jag fram en dialog och har jobbat med att finslipa och matcha dialogen till bilderna. Har även skrivit och slipat på övriga texter i samarbete med gruppen."
             background={personColors[1]}
           ></Person>
           <Person
@@ -71,7 +71,7 @@ const People = () => {
             title="Manusförfattare"
             email="mailto:linwes2001@skola.goteborg.se"
             img={LindaImg}
-            text="3"
+            text="Min huvuduppgift har varit att i bild visualisera den historia vi tillsammans sytt ihop. Jag har skapat de karaktärer, bakgrunder, och föremål man kan se och har använt mig utav Räddningsmissionens egna grafiska profil för att väva ihop samarbetet."
             background={personColors[2]}
           ></Person>
           <Person
@@ -79,7 +79,7 @@ const People = () => {
             title="Webbutvecklare"
             email="mailto:jonmcg01@gmail.com"
             img={JonImg}
-            text="4"
+            text="Som webbutvecklare har mitt arbete inneburit att få allting att samlas på ett ställe, den som lägger sista pusselbiten. Jag har även byggt menyer och andra små sidor och försökt att få allting att se bra ut. "
             background={personColors[3]}
           ></Person>
           <Person
@@ -87,7 +87,8 @@ const People = () => {
             title="Spelutvecklare"
             email="mailto:jaclun2003@skola.goteborg.se"
             img={JacobImg}
-            text="5"
+            text="Min huvuduppgift i detta projektet har varit att bygga system för att på ett snyggt sätt 
+            presentera denna berättelse. Jag har också kopplat samman det som de andra i gruppen skapat som exempelvis grafik och manus."
             background={personColors[4]}
           ></Person>
         </div>
