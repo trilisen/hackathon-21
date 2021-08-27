@@ -9,10 +9,10 @@ import Sound from "../Images/sound.svg";
 import Muted from "../Images/muted.svg";
 
 const unityContext = new UnityContext({
-  loaderUrl: "Build/NoCompression.loader.js",
-  dataUrl: "Build/NoCompression.data",
-  frameworkUrl: "Build/NoCompression.framework.js",
-  codeUrl: "Build/NoCompression.wasm",
+  loaderUrl: "Build/FinalBlackBuild.loader.js",
+  dataUrl: "Build/FinalBlackBuild.data",
+  frameworkUrl: "Build/FinalBlackBuild.framework.js",
+  codeUrl: "Build/FinalBlackBuild.wasm",
 });
 
 const gameStyles = {
