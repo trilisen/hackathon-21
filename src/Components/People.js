@@ -63,7 +63,7 @@ const People = () => {
             title="Grafiker"
             email="mailto:malmal2002@skola.goteborg.se"
             img={MalvaImg}
-            text="Jag har jobbat med utvecklingen av Storyn, sett till så att den har början mitt, och slut. Utifrån story tog jag fram en dialog och har jobbat med att finslipa och matcha dialogen till bilderna. Har även skrivit och slipat på övriga texter i samarbete med gruppen."
+            text="Min huvuduppgift har varit att i bild visualisera den historia vi tillsammans sytt ihop. Jag har skapat de karaktärer, bakgrunder, och föremål man kan se och har använt mig utav Räddningsmissionens egna grafiska profil för att väva ihop samarbetet."
             background={personColors[1]}
           ></Person>
           <Person
@@ -71,7 +71,7 @@ const People = () => {
             title="Manusförfattare"
             email="mailto:linwes2001@skola.goteborg.se"
             img={LindaImg}
-            text="Min huvuduppgift har varit att i bild visualisera den historia vi tillsammans sytt ihop. Jag har skapat de karaktärer, bakgrunder, och föremål man kan se och har använt mig utav Räddningsmissionens egna grafiska profil för att väva ihop samarbetet."
+            text="Jag har jobbat med utvecklingen av Storyn, sett till så att den har början mitt, och slut. Utifrån story tog jag fram en dialog och har jobbat med att finslipa och matcha dialogen till bilderna. Har även skrivit och slipat på övriga texter i samarbete med gruppen."
             background={personColors[2]}
           ></Person>
           <Person
