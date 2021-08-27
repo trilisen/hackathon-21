@@ -116,14 +116,14 @@ const Endscreen = () => {
           till tak över huvudet.
         </div>
         <div style={{ display: "flex" }}>
+          <a style={button1Styles} className="endBtn" href="/about">
+            LÄS MER
+          </a>
           <a
-            style={button1Styles}
+            style={button2Styles}
             className="endBtn"
             href="https://raddningsmissionen.se"
           >
-            LÄS MER
-          </a>
-          <a style={button2Styles} className="endBtn" href="/about">
             GE EN GÅVA
           </a>
         </div>
