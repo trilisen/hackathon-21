@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Unity, { UnityContext } from "react-unity-webgl";
+import Endscreen from "./End";
 
 const unityContext = new UnityContext({
   loaderUrl: "Build/Build.loader.js",
@@ -24,7 +25,7 @@ const Game = () => {
   }, []);
   return (
     <div style={{ display: "flex" }}>
-      {isGameOver === true && <p>Game over</p>}
+      {isGameOver === true && <Endscreen></Endscreen>}
       <Unity unityContext={unityContext} style={gameStyles} />
     </div>
   );
