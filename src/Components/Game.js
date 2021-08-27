@@ -23,7 +23,7 @@ const Game = () => {
     });
   }, []);
   return (
-    <div>
+    <div style={{ display: "flex" }}>
       {isGameOver === true && <p>Game over</p>}
       <Unity unityContext={unityContext} style={gameStyles} />
     </div>
