@@ -1,6 +1,5 @@
 import Game from "./Components/Game";
 import About from "./Components/About";
-import Header from "./Components/Header";
 import People from "./Components/People";
 
 import {
@@ -15,10 +14,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-          <main>
-            <Header color="black"></Header>
-            <Game></Game>
-          </main>
+          <Game></Game>
         </Route>
         <Route path="/about">
           <About />
