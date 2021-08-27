@@ -29,14 +29,25 @@ const containerStyles = {
   width: "80%",
   alignItems: "center",
   background: "#D0E2E3",
-  margin: "3rem",
+  marginRight: "3rem",
+  marginLeft: "3rem",
   borderRadius: "31px",
+  marginBottom: "8rem",
 };
 
 const textStyles = {
   margin: "3rem",
-  fontSize: "1.5rem",
   fontFamily: "Lota Grotesque Regular",
+  marginLeft: "8rem",
+};
+
+const grandmaStyles = {
+  height: "100%",
+  width: "100%",
+};
+
+const grandmaContainerStyles = {
+  marginRight: "8rem",
 };
 
 const About = () => {
@@ -56,26 +67,30 @@ const About = () => {
               Svåraste steget är ett samarbete mellan Räddningsmissionen och
               Yrgo yrkeshögskola i Göteborg. Meningen med projektet är att genom
               en interaktiv berättelse presentera Räddningsmissionens arbete och
-              uppgiftens tema ”Kärleken är störst”. Vi har därför gått samman
-              fem elever från utbildningarna UX-design, Game creator, Game
-              artist, Webbutvecklare och Manusförfattare för att gemensamt skapa
-              denna sida. Vår förhoppning är att du som tar del av vår
-              berättelse blir intresserad av att lära dig mer om hur du kan
-              bidra till att hjälpa Räddningsmissionens verksamhet och
-              samhällets mest utsatta. I vår berättelse får du följa Doris som
-              förlorat sin man, sitt sammanhang och sitt hem. När allt ser som
-              mörkast ut för Doris bestämmer hon sig för att överge sin hårda
-              parkbänk för att ta emot den hjälp som erbjuds av
+              uppgiftens tema ”Kärleken är störst”. <br /> <br /> Vi har därför
+              gått samman fem elever från utbildningarna UX-design, Game
+              creator, Game artist, Webbutvecklare och Manusförfattare för att
+              gemensamt skapa denna sida. Vår förhoppning är att du som tar del
+              av vår berättelse blir intresserad av att lära dig mer om hur du
+              kan bidra till att hjälpa Räddningsmissionens verksamhet och
+              samhällets mest utsatta. <br /> <br /> I vår berättelse får du
+              följa Doris som förlorat sin man, sitt sammanhang och sitt hem.
+              När allt ser som mörkast ut för Doris bestämmer hon sig för att
+              överge sin hårda parkbänk för att ta emot den hjälp som erbjuds av
               Räddningsmissionen. Doris erbjuds fika och tak över huvudet -
-              något som i dagsläget inte är en självklarhet för alla. Du kan
-              läsa mer om Räddningsmissionen på raddningsmissionen.se samt
-              omvåra respektive utbildningar på www.yrgo.se. Våra mailadresser
-              finns under “kreatörer” i menyn. <br />
+              något som i dagsläget inte är en självklarhet för alla. <br />{" "}
+              <br /> Du kan läsa mer om Räddningsmissionen på
+              raddningsmissionen.se samt omvåra respektive utbildningar på
+              www.yrgo.se. Läs mer om oss under{" "}
+              <a href="/people" style={{ color: "black" }}>
+                kreatörer
+              </a>{" "}
+              i menyn. <br /> <br />
               <b>Tack!</b>
             </p>
           </div>
-          <div>
-            <img src={Grandma} alt="Grandma" />
+          <div style={grandmaContainerStyles}>
+            <img src={Grandma} alt="Grandma" style={grandmaStyles} />
           </div>
         </div>
       </main>

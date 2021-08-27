@@ -34,7 +34,7 @@ const Info = () => {
           Om projektet
         </a>
         <a href="/people" style={linkStyles}>
-          Om oss
+          Kreatörer
         </a>
       </div>
       <Footer></Footer>
